@@ -1,0 +1,139 @@
+body{
+    background-image: linear-gradient(to right top, #d16bcd, #d38bde, #d7a9eb, #dec4f5, #e9defb, #e5e3fe, #e2e8ff, #e1ecff, #bce2fd, #8cdaf3, #54d1de, #14c7bc);
+}
+
+.clock-circle{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: solid 4px rgb(7, 7, 7);
+    position: relative;
+    margin: auto;
+    background: linear-gradient(to left bottom, #1f65cd, #007abb, #00818b, #3a8162, #717c58);
+    background-repeat: round;
+}
+
+.sec-hand{
+    height: 240px;
+    position: absolute;
+    width: 2px;
+    background-color: rgb(255, 0, 0);
+    margin-left: 257px;
+    margin-top: 18px;
+    transform-origin: bottom;
+
+}
+
+.min-hand{
+    height: 215px;
+    position: absolute;
+    width: 5px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 256px;
+    margin-top: 43px;
+    transform-origin: bottom;
+    border-radius: 50%;
+
+}
+.hour-hand{
+    height: 180px;
+    position: absolute;
+    width: 9px;
+    background-color: black;
+    margin-left: 254px;
+    margin-top: 78px;
+    transform-origin: bottom;
+    border-radius: 50%;
+
+}
+.brand{
+    position: absolute;
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: 125px;
+    margin-left: 235px;
+}
+.point{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(2, 2, 2);
+    border-radius: 50%;
+    margin-top: 248px;
+    margin-left: 248px;
+    position: absolute;
+}
+
+.hour{
+    font-weight: bold;
+    font-size: 35px;
+    position: absolute;
+    color: rgb(252, 252, 252);
+}
+
+
+.hour-12{
+    margin-top: 2px;
+    margin-left: 245px;
+}
+
+.hour-1{
+    margin-top: 42px;
+    margin-left: 375px;
+}
+
+.hour-2{
+    margin-top: 125px;
+    margin-left: 455px;
+}
+
+.hour-3{
+    margin-top: 238px;
+    margin-left: 480px;
+}
+
+
+.hour-4{
+    margin-top: 343px;
+    margin-left: 450px;
+}
+
+.hour-5{
+    margin-top: 423px;
+    margin-left: 375px;
+}
+
+.hour-6{
+    margin-top: 465px;
+    margin-left:  250px;
+}
+
+.hour-7{
+    margin-top: 435px;
+    margin-left: 125px;
+}
+
+
+.hour-8{
+    margin-top: 345px;
+    margin-left: 35px;
+}
+
+
+.hour-9{
+    margin-top: 238px;
+    margin-left: 3px;
+}
+
+
+.hour-10{
+    margin-top: 125px;
+    margin-left: 30px;
+}
+
+
+.hour-11{
+    margin-top: 35px;
+    margin-left: 114px ;
+}
+
+
